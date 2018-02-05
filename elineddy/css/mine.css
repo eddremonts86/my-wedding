@@ -1,0 +1,152 @@
+/*  @import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Coustard', serif;
+font-family: 'Galada', cursive;
+font-family: 'Irish Grover', cursive;
+font-family: 'Marko One', serif;*/
+
+/* ----------------------- HTML TAGS------------------*/
+body {
+    background: url(../img/elineddy/45.jpg) center center / cover no-repeat fixed;
+}
+
+section#blog {
+    padding: 30px 0 0 0px;
+}
+
+article.card .card-img-top {
+    max-height: 213px;
+}
+
+article.card {
+    min-height: 425px;
+}
+
+article.card {
+    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+}
+
+/* ----------------------- Custom CSS ------------------*/
+
+.overlay {
+    background-color: rgba(58, 55, 56, 0.55);
+}
+
+.navbar.main-navbar.bg-dark {
+    background-color: #00000096 !important;
+}
+
+.headtolate {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(255, 255, 255, 0.3084313725490196);
+}
+
+.tolate {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    line-height: 1.5;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.info {
+    /* border: 1px solid rgba(58, 58, 58, 0.9); */
+    padding: 2%;
+    border-radius: 4px;
+    background: rgba(37, 37, 37, 0.44);
+    color: #ffffff;
+    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+}
+
+.video_iframe {
+    width: 100%;
+    height: 100%
+}
+
+.trans {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar.main-navbar {
+    position: fixed;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    z-index: 1;
+}
+
+.G-information {
+    margin: 0 auto;
+    padding: 100px;
+    background: #eee;
+    color: #212121;
+
+}
+
+.img_blog {
+    height: 200px;
+    width: 205px;
+    margin: 25px;
+    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    background: rgba(37, 37, 37, 0.44);
+    border: rgba(37, 37, 37, 0.44);
+}
+
+.bg_white {
+    background: rgba(255, 255, 255, 0.6)
+}
+
+.bg_iframe {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0
+}
+
+.bg_hero {
+    background: no-repeat;
+    background-size: cover;
+}
+.bg_features {
+    background: no-repeat;
+    background-size: cover;
+}
+
+.bg_features_internal_maergin {
+    margin: 15px 0px
+}
+.head_hero {
+    color: #fff;
+    font-size: 56px
+}
+
+.G-information_header {
+    font-size: 3rem;
+    color: #212121;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.G-information_header_body {
+    color: #212121;
+    font-size: 23px
+}
+
+
+/* ----------------------- Custom ID------------------*/

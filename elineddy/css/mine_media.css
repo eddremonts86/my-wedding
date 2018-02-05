@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 768px) {
+    .hero .text h1 {
+        font-size: 20px;
+    }
+
+    .video_iframe {
+
+        height: 500px
+    }
+
+    .tolate {
+        font-size: 29px;
+        line-height: 1;
+    }
+
+    .navbar.main-navbar {
+        background: #00000069;
+    }
+}
