@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
     <link rel="stylesheet" href="css/stisla.css">
-    <link rel="stylesheet" href="css/mine.css">
-    <link rel="stylesheet" href="css/mine_media.css">
+    <link rel="stylesheet" href="css/mine.css?<?php echo rand(); ?> ">
+    <link rel="stylesheet" href="css/mine_media.css?<?php echo rand(); ?>">
 
 
 </head>
@@ -41,10 +41,13 @@
                     <a class="nav-link smooth-link" href="#features">Wedding information</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link smooth-link" href="#project">Program</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link smooth-link" href="#blog">Dinner</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smooth-link" href="#project">Program</a>
+                    <a class="nav-link smooth-link" href="#contact">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -55,7 +58,7 @@
 <section class="hero bg-overlay bg_hero" id="hero" data-bg="img/elineddy/8.jpg">
     <div class="text">
         <h1 class="headtolate">When <span class="bold">LOVE</span> knocks on your door, then take your clothes and<span
-                class="bold"> RUN...</span></h1>
+                    class="bold"> RUN...</span></h1>
         <br><span class="bold tolate">It's too late for us!<br> </span>
         <a href="#features" class="smooth-link"><i class="ion-chevron-down head_hero"></i></a>
 
@@ -65,29 +68,37 @@
 
 <section class="G-information">
     <div class="container-fluid">
-        <div class="row">
-            <div class="container">
-                <div class="col-xs-12">
-                    <h2 class="G-information_header">Vær med til at skabe et af vores livs
-                        bedste minder! </h2>
-                    <p class="G-information_header_body">Den 10. november 2014 blev vi gift i Havana, Cuba. Eddy's mor
-                        og bror var med os på dagen. Nu er tiden kommet hvor
-                        vi skal velsignes af den gode præst Andreas i Store Magleby Kirke. Vi vil selvfølgelig have alle
-                        jer smukke mennesker med,
-                        og efterfølgende invitere til en forrygende og romantisk fest på Store Magleby Skole. <br>
-                        For at vores fest kan blive en realitet,
-                        har vi brug for jeres hjælp. Vores eneste bryllupsønske er, at hver inviterede gæst bidrager med
-                        120 kroner der går ubeskåret til maden.
-                        Vi kan allerede nu afsløre at det ikke bliver et traditionelt bryllup
-                        med bordplan og alt det der.
-                        <br> Vi har derfor booket Simon og Mauro der kommer med Simons peruvianske streetfood. Vi sørger
-                        for masser af drikkevarer
-                        og latinrytmer til langt ud på natten. <br>
-                        Vi glæder os helt vildt til at skabe dette fantastiske minde med jer! </p>
 
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="G-information_header">Vær med til at skabe et af vores livs
+                            bedste minder! </h2>
+                        <p class="G-information_header_body">Den 10. november 2014 blev vi gift i Havana, Cuba. Eddy's
+                            mor
+                            og bror var med os på dagen. Nu er tiden kommet hvor
+                            vi skal velsignes af den gode præst Andreas i Store Magleby Kirke. Vi vil selvfølgelig have
+                            alle
+                            jer smukke mennesker med,
+                            og efterfølgende invitere til en forrygende og romantisk fest på Store Magleby Skole. <br>
+                            For at vores fest kan blive en realitet,
+                            har vi brug for jeres hjælp. Vores eneste bryllupsønske er, at hver inviterede gæst bidrager
+                            med
+                            120 kroner der går ubeskåret til maden.<a href="#contact">klik her</a>
+                            Vi kan allerede nu afsløre at det ikke bliver et traditionelt bryllup
+                            med bordplan og alt det der.
+                            <br> Vi har derfor booket Simon og Mauro der kommer med Simons peruvianske streetfood. Vi
+                            sørger
+                            for masser af drikkevarer
+                            og latinrytmer til langt ud på natten. <br>
+                            Vi glæder os helt vildt til at skabe dette fantastiske minde med jer! </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img style="border-radius: 4px;    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);" class="card-img-top" src="img/elineddy/11.jpg" alt="Article Image">
+                    </div>
                 </div>
-            </div>
-        </div>
+
     </div>
 </section>
 
@@ -136,42 +147,33 @@
 <section class="trans" id="blog">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="text-center">
-                    <img class="img-thumbnail rounded-circle img_blog"
-                         src="https://i1.wp.com/panca.dk/wp-content/uploads/2017/03/logo_white_on_black.png?w=1080">
+            <div class="col-lg-5">
+                <div class="text-center" style="padding-top: 10%">
+                    <div><img class="img-thumbnail rounded-circle img_blog"
+                              src="https://i1.wp.com/panca.dk/wp-content/uploads/2017/03/logo_white_on_black.png?w=1080">
+                    </div>
+                    <div>
+                        <p>Menu med kød: ”Mini Causa” og Lomo Saltado<br>
+                            Menu Vegetariano: Vegetar version af <br>”Mini Causa” og en lækker Quinoasalat</p>
+                    </div>
+                    <div><a class="btn btn-primary" style="color: white" data-toggle="modal" data-target="#myModal">Se
+                            video</a></div>
                 </div>
             </div>
-            <div class="col-lg-6 bg_white">
+            <div class="col-lg-6">
                 <div class="section-body">
                     <div class="row col-spacing">
-                        <div class="col-md-12">
-                            <p>
-                                <strong>Panca Peruvian Rolling Restaurant </strong>is a food truck introducing healthy,
-                                exotic and delicious
-                                Peruvian food into Danish market. The gastronomy of Peru is recognized worldwide as the
-                                best
-                                of South America with ingredients as Quinua, Chia, Chili, Sweet potatoes etc. <br> Panca
-                                is a
-                                type of chili with a particular flavour, it is very aromatic and one of our most used
-                                ingredients in our food. Simon Brammer (Danish) married with Janice Pelayo (Peruvian)
-                                they
-                                lived in Peru for more than 10 years and he is the chef with a great knowledge of the
-                                gastronomy, culture, costumes and the amazing healthy properties of the ingredients in
-                                Peruvian food.</p>
-
-                        </div>
-
                         <div class="col-12 col-md-6 col-lg-4">
                             <article class="card">
                                 <img class="card-img-top"
                                      src="img/elineddy/plato1.jpg"
                                      alt="Article Image">
                                 <div class="card-body">
-                                    <div class="card-subtitle mb-2 text-muted"></div>
+                                    <div class="card-subtitle mb-2 text-muted">Forret</div>
                                     <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Mini Causa</a>
                                     </h4>
-                                    <p class="card-text">Potato tortilla, mounted with minced chicken cream of celery
+                                    <p class="card-text">Potato tortilla, mounted with minced chicken cream of
+                                        celery
                                         and mayonnaise, on a bead of avocado and tomato. </p>
                                 </div>
                             </article>
@@ -182,13 +184,15 @@
                                      src="img/elineddy/plato2.jpg"
                                      alt="Article Image">
                                 <div class="card-body">
-                                    <div class="card-subtitle mb-2 text-muted"></div>
-                                    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Lomo saltado</a>
+                                    <div class="card-subtitle mb-2 text-muted">Kød Menu</div>
+                                    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Lomo
+                                            saltado </a>
                                     </h4>
                                     <p class="card-text">Juicy beef in a Delicious soy sauce with
                                         stir fried onions, tomatoes chili and parsley,
                                         served with rice and fried potatoes
                                     </p>
+
                                 </div>
                             </article>
                         </div>
@@ -198,27 +202,24 @@
                                      src="img/elineddy/plato3.jpg"
                                      alt="Article Image">
                                 <div class="card-body">
-                                    <div class="card-subtitle mb-2 text-muted"></div>
-                                    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Quinoa salad </a>
+                                    <div class="card-subtitle mb-2 text-muted">Vegetariano Menu</div>
+                                    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Quinoa
+                                            salad </a>
                                     </h4>
                                     <p class="card-text">Super healthy and delicious quinoa salad made from lightly
                                         steamed cucumber, carrots, parsley and of course the Inca super grain
                                         quinoa.</p>
+
                                 </div>
                             </article>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 bg_iframe">
-                <iframe class="video_iframe"
-                        src="https://www.youtube-nocookie.com/embed/REXhNPE-OgY?rel=0&amp;showinfo=0&amp;start=16"
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
+
         </div>
     </div>
 </section>
-
 
 <section class="bg-overlay padding" id="project" data-bg="img/elineddy/13.jpg"
          style="background:no-repeat;background-size: cover; ">
@@ -276,59 +277,79 @@
         </div>
     </div>
 </section>
-
-<!--section class="padding bg-grey" id="contact">
+<section class="padding bg-grey" id="contact" style="padding: 30px 0;">
     <div class="container">
-        <h2 class="section-title text-center">Contact Us</h2>
-        <p class="section-lead text-center text-muted">Send us your inquiry, we will help you and reply as soon as
-            possible</p>
+
+
         <div class="section-body">
             <div class="row col-spacing">
-                <div class="col-12 col-md-5">
-                    <p class="contact-text">You can send us something like a question or project, we are open 09:00 to
-                        17:00.</p>
-                    <ul class="contact-icon">
-                        <li><i class="ion ion-ios-telephone"></i>
-                            <div>+6212345123</div>
-                        </li>
-                        <li><i class="ion ion-ios-email"></i>
-                            <div>hi@kodinger.com</div>
-                        </li>
-                    </ul>
-                    <iframe src="https://snazzymaps.com/embed/10159" style="border:none;" class="maps"></iframe>
+                <div class="col-12 col-md-2"></div>
+                <div class="col-12 col-md-8">
+
+                    <h2 class="section-title text-center">Kontakt os</h2>
+                    <p class="section-lead text-center text-muted">Meld venligst hurtigt tilbage om du kan
+                        komme!</p>
+                    <p>
+                        Tilmeldelse til brylluppet foregår via Mobilepay inden den 1. april. Men meget gerne
+                        før/så hurtigt som
+                        muligt, da der er mange forberedelser der går forud for festen. <br>
+
+                        <b>HUSK</b> det også er vigtigt for os at vide så hurtigt som muligt hvis du er
+                        forhindret i at komme. Giv besked på sms til Eline på 40424098.<br>
+
+                        Tilmeldelse - Mobilepay 120 dkk til Eline på tlf 40424098 – <b>HUSK</b> at oplyse navn
+                        på dig/dem du betaler for i
+                        besked. HUSK også at oplyse om der er vegetarer iblandt de tilmeldte (FX - 2 VEG).
+                    </p>
+                    <div class="contact-icon text-center">
+                        <div style="display: inline-flex"><i class="ion ion-ios-telephone"></i>
+                            <span>40424098</span>
+                        </div>
+                        <div style="display: inline-flex"><i class="ion ion-ios-email"></i>
+                            <span>eline_storm@hotmail.com</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-7">
-                    <form class="contact row" id="contact-form">
-                        <div class="form-group col-6">
-                            <input type="text" class="form-control" placeholder="Name" name="name" required="">
-                        </div>
-                        <div class="form-group col-6">
-                            <input type="email" class="form-control" placeholder="Email" name="email" required="">
-                        </div>
-                        <div class="form-group col-12">
-                            <input type="text" class="form-control" placeholder="Subject" name="subject" required="">
-                        </div>
-                        <div class="form-group col-12">
-                            <textarea class="form-control" placeholder="Message" name="message" required=""></textarea>
-                        </div>
-                        <div class="form-group col-12 mt-2">
-                            <button class="btn btn-primary">
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
-                </div>
+
+
             </div>
         </div>
     </div>
-</section-->
+</section>
 
-
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div id="video_id" class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <iframe class="video_iframe"
+                        src="https://www.youtube-nocookie.com/embed/REXhNPE-OgY?rel=0&amp;showinfo=0&amp;start=16"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery.min.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/jquery.easeScroll.js"></script>
 <script src="sweetalert/dist/sweetalert.min.js"></script>
 <script src="js/stisla.js"></script>
-<audio src="micancion.mp3" autoplay="true" loop="true"></audio>
+<script>
+    var height = $(window).height();
+    var width = $(window).width();
+    $(document).ready(function () {
+        $('#video_id').css("min-height", height - (height / 10) + "px");
+        $('#video_id').css("min-width", width - (width / 10) + "px");
+        $('.modal-dialog').css("max-width", width + "px");
+
+        $('.video_iframe').css("width", width - 35 + "px");
+        $('.video_iframe').css("height", height - (height / 9) + "px");
+
+
+    })
+</script>
 </body>
 </html>

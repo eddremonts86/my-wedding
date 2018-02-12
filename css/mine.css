@@ -79,7 +79,7 @@ article.card {
 }
 
 .trans {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.80);
 }
 
 .navbar.main-navbar {
@@ -140,7 +140,7 @@ article.card {
     font-size: 3rem;
     color: #212121;
     text-align: center;
-    line-height: 2.5;
+    line-height: 1;
 }
 
 .G-information_header_body {
@@ -149,4 +149,7 @@ article.card {
 }
 
 
-/* ----------------------- Custom ID------------------*/
+
+
+
+/* ----------------------- Custom ddd ID------------------*/
