@@ -70,7 +70,7 @@
     <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-12 col-sm-12">
                         <h2 class="G-information_header">Vær med til at skabe et af vores livs
                             bedste minder! </h2>
                         <p class="G-information_header_body">Den 10. november 2014 blev vi gift i Havana, Cuba. Eddy's
@@ -92,7 +92,7 @@
                             og latinrytmer til langt ud på natten. <br>
                             Vi glæder os helt vildt til at skabe dette fantastiske minde med jer! </p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-12 col-sm-12">
                         <img style="border-radius: 4px;    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
     -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
     box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);" class="card-img-top" src="img/elineddy/11.jpg" alt="Article Image">
