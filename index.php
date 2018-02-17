@@ -18,7 +18,6 @@
 
 
 </head>
-
 <body>
 <nav class="navbar navbar-expand-lg main-navbar">
     <div class="container-fluid">
@@ -47,7 +46,7 @@
                     <a class="nav-link smooth-link" href="#blog">Dinner</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smooth-link" href="#contact">Kontakt</a>
+                    <a class="nav-link smooth-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -95,7 +94,7 @@
                     <div class="col-md-6 col-12 col-sm-12 mobile_video">
                         <!--img style="" class="card-img-top" src="img/elineddy/11.jpg" alt="Article Image"-->
 
-                        <video controls autoplay style="">
+                        <video controls style="">
                             <source src="img/elineddy/wd.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -160,8 +159,7 @@
                         <p>Menu med kød: ”Mini Causa” og Lomo Saltado<br>
                             Menu Vegetariano: Vegetar version af <br>”Mini Causa” og en lækker Quinoasalat</p>
                     </div>
-                    <div><a class="btn btn-primary" style="color: white" data-toggle="modal" data-target="#myModal">Se
-                            video</a></div>
+                    <div><button class="btn btn-primary" style="color: white" data-toggle="modal" data-target="#myModal">Se video</button></div>
                 </div>
             </div>
             <div class="col-lg-6">
