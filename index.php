@@ -54,7 +54,7 @@
 </nav>
 
 
-<section class="hero bg-overlay bg_hero" id="hero" data-bg="img/elineddy/8.1.jpg">
+<section class="hero bg-overlay bg_hero header_index" id="hero" data-bg="img/elineddy/8.1.jpg">
     <div class="text">
         <h1 class="headtolate">When <span class="bold">L<i class="ion-ios-heart"></i>VE</span> knocks on your door, then take your clothes and<span
                     class="bold"> RUN...</span></h1>
@@ -340,5 +340,17 @@
 <script src="js/jquery.easeScroll.js"></script>
 <script src="sweetalert/dist/sweetalert.min.js"></script>
 <script src="js/stisla.js"></script>
+<script>
+    var height = $(window).height();
+    var width = $(window).width();
+    $(document).ready(function () {
+        $('#video_id').css("min-height", height - (height / 10) + "px");
+        $('#video_id').css("min-width", width - (width / 10) + "px");
+        $('.modal-dialog').css("max-width", width + "px");
+
+        $('.video_iframe').css("width", width - 35 + "px");
+        $('.video_iframe').css("height", height - (height / 9) + "px");
+    })
+</script>
 </body>
 </html>
