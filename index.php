@@ -54,7 +54,7 @@
 </nav>
 
 
-<section class="hero bg-overlay bg_hero" id="hero" data-bg="img/elineddy/8.jpg">
+<section class="hero bg-overlay bg_hero" id="hero" data-bg="img/elineddy/8.1.jpg">
     <div class="text">
         <h1 class="headtolate">When <span class="bold">L<i class="ion-ios-heart"></i>VE</span> knocks on your door, then take your clothes and<span
                     class="bold"> RUN...</span></h1>
