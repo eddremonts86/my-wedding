@@ -65,8 +65,8 @@ article.card {
 .info {
     /* border: 1px solid rgba(58, 58, 58, 0.9); */
     padding: 2%;
-    border-radius: 4px;
-    background: rgba(37, 37, 37, 0.44);
+    border-radius: 10px;
+    background: rgba(37, 37, 37, 0.75);
     color: #ffffff;
     -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
     -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
@@ -123,6 +123,7 @@ article.card {
     background: no-repeat;
     background-size: cover;
 }
+
 .bg_features {
     background: no-repeat;
     background-size: cover;
@@ -131,6 +132,7 @@ article.card {
 .bg_features_internal_maergin {
     margin: 15px 0px
 }
+
 .head_hero {
     color: #fff;
     font-size: 56px
@@ -148,8 +150,21 @@ article.card {
     font-size: 23px
 }
 
+.hero .text h1 .bold {
+    color: white;
+}
 
+#hero > div.text > h1 > span > i {
+    color: #ff041f
+}
 
-
+body > section.G-information > div > div > div:nth-child(2) > video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
+}
 
 /* ----------------------- Custom ddd ID------------------*/

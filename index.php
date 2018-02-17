@@ -57,7 +57,7 @@
 
 <section class="hero bg-overlay bg_hero" id="hero" data-bg="img/elineddy/8.jpg">
     <div class="text">
-        <h1 class="headtolate">When <span class="bold">LOVE</span> knocks on your door, then take your clothes and<span
+        <h1 class="headtolate">When <span class="bold">L<i class="ion-ios-heart"></i>VE</span> knocks on your door, then take your clothes and<span
                     class="bold"> RUN...</span></h1>
         <br><span class="bold tolate">It's too late for us!<br> </span>
         <a href="#features" class="smooth-link"><i class="ion-chevron-down head_hero"></i></a>
@@ -92,10 +92,15 @@
                             og latinrytmer til langt ud på natten. <br>
                             Vi glæder os helt vildt til at skabe dette fantastiske minde med jer! </p>
                     </div>
-                    <div class="col-md-6 col-12 col-sm-12">
-                        <img style="border-radius: 4px;    -webkit-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
-    -moz-box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);
-    box-shadow: 10px 10px 11px -7px rgba(0, 0, 0, 0.65);" class="card-img-top" src="img/elineddy/11.jpg" alt="Article Image">
+                    <div class="col-md-6 col-12 col-sm-12 mobile_video">
+                        <!--img style="" class="card-img-top" src="img/elineddy/11.jpg" alt="Article Image"-->
+
+                        <video controls autoplay style="">
+                            <source src="img/elineddy/wd.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+
                     </div>
                 </div>
 
