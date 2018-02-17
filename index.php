@@ -107,8 +107,7 @@
     </div>
 </section>
 
-<section class="padding bg_features" id="features" data-bg="img/elineddy/4.jpg"
->
+<section class="padding bg_features" id="features" data-bg="img/elineddy/4.jpg">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8 col-sm-12 info">
@@ -226,9 +225,8 @@
     </div>
 </section>
 
-<section class="bg-overlay padding" id="project" data-bg="img/elineddy/13.jpg"
-         style="background:no-repeat;background-size: cover; ">
-    <div class="container">
+<section class="bg-overlay padding" id="project" data-bg="img/elineddy/13.jpg" style="background:no-repeat;background-size: cover; ">
+      <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
                 <!--figureclass="projects-picture">
@@ -282,6 +280,7 @@
         </div>
     </div>
 </section>
+
 <section class="padding bg-grey" id="contact" style="padding: 30px 0;">
     <div class="container">
 
@@ -336,25 +335,12 @@
         </div>
     </div>
 </div>
+
 <script src="js/jquery.min.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/jquery.easeScroll.js"></script>
 <script src="sweetalert/dist/sweetalert.min.js"></script>
 <script src="js/stisla.js"></script>
-<script>
-    var height = $(window).height();
-    var width = $(window).width();
-    $(document).ready(function () {
-        $('#video_id').css("min-height", height - (height / 10) + "px");
-        $('#video_id').css("min-width", width - (width / 10) + "px");
-        $('.modal-dialog').css("max-width", width + "px");
-
-        $('.video_iframe').css("width", width - 35 + "px");
-        $('.video_iframe').css("height", height - (height / 9) + "px");
-
-
-    })
-</script>
 </body>
 </html>

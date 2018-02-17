@@ -56,6 +56,15 @@
         height: auto;
         border-radius: 0px;
     }
+    .info {
 
+        padding: 8%;
+        border-radius: 4px;
+        margin: 0px;
+    }
+
+    #project > div.container > div,#features > div.container > div{
+        padding: 5px;
+    }
 }
 
