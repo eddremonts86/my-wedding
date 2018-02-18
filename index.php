@@ -69,7 +69,7 @@
     <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-md-6 col-12 col-sm-12">
+                    <div class="col-lg-6 col-xl-6 col-md-12 col-12 col-sm-12">
                         <h2 class="G-information_header">Vær med til at skabe et af vores livs
                             bedste minder! </h2>
                         <p class="G-information_header_body">Den 10. november 2014 blev vi gift i Havana, Cuba. Eddy's
@@ -91,7 +91,7 @@
                             og latinrytmer til langt ud på natten. <br>
                             Vi glæder os helt vildt til at skabe dette fantastiske minde med jer! </p>
                     </div>
-                    <div class="col-md-6 col-12 col-sm-12 mobile_video">
+                    <div class="col-lg-6 col-xl-6 col-md-12 col-12 col-sm-12 mobile_video">
                         <!--img style="" class="card-img-top" src="img/elineddy/11.jpg" alt="Article Image"-->
 
                         <video controls style="">
@@ -109,7 +109,7 @@
 <section class="padding bg_features" id="features" data-bg="img/elineddy/4.jpg">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8 col-sm-12 info">
+            <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12 info">
                 <h2 class="pacifico">Bryllups information</h2>
                 <hr>
                 <div class="list-item bg_features_internal_maergin">
@@ -165,7 +165,7 @@
             <div class="col-lg-6">
                 <div class="section-body">
                     <div class="row col-spacing">
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                             <article class="card">
                                 <img class="card-img-top"
                                      src="img/elineddy/plato1.jpg"
@@ -180,7 +180,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                             <article class="card">
                                 <img class="card-img-top"
                                      src="img/elineddy/plato2.jpg"
@@ -198,7 +198,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                             <article class="card">
                                 <img class="card-img-top"
                                      src="img/elineddy/plato3.jpg"
@@ -231,7 +231,7 @@
                     <img src="img/youzhang.png" alt="Youzhang">
                 </figure-->
             </div>
-            <div class="col-12 col-md-6 info">
+            <div class="col-lg-6 col-xl-6 col-md-12 info">
                 <div class="projects-details">
                     <h2 class="projects-title">Program</h2>
 
@@ -347,7 +347,6 @@
         $('#video_id').css("min-height", height - (height / 10) + "px");
         $('#video_id').css("min-width", width - (width / 10) + "px");
         $('.modal-dialog').css("max-width", width + "px");
-
         $('.video_iframe').css("width", width - 35 + "px");
         $('.video_iframe').css("height", height - (height / 9) + "px");
     })

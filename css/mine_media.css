@@ -18,11 +18,20 @@
         background: #eee;
         color: #212121;
     }
+
+    .hero .text h1 {
+        margin: 0;
+        font-size: 41px;
+    }
+    .tolate {
+        font-size: 45px;
+        line-height: 1.5;}
 }
 
-@media screen and (max-width: 768px) {
+
+    @media screen and (max-width: 768px) {
     .hero .text h1 {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .video_iframe {
@@ -36,7 +45,7 @@
     }
 
     .navbar.main-navbar {
-        background: #00000069;
+        background: rgba(0, 0, 0, 0.14);
     }
 
     .G-information {
@@ -47,8 +56,9 @@
     }
 
     .mobile_video {
-        background: black;
+        background: rgba(0, 0, 0, 0.38);
         padding: 10px;
+        height: auto;
     }
 
     body > section.G-information > div > div > div:nth-child(2) > video {
