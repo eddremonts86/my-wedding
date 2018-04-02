@@ -32,7 +32,7 @@
    *
    * Event listeners for UI elements
    *
-   ****************************************************************************/
+   ****************************************************************************
 
   document.getElementById('butRefresh').addEventListener('click', function() {
     // Refresh all of the forecasts
@@ -69,7 +69,7 @@
    *
    * Methods to update/refresh the UI
    *
-   ****************************************************************************/
+   ****************************************************************************
 
   // Toggles the visibility of the add new city dialog.
   app.toggleAddDialog = function(visible) {
@@ -154,7 +154,7 @@
    *
    * Methods for dealing with the model
    *
-   ****************************************************************************/
+   ****************************************************************************
 
   /*
    * Gets a forecast for a specific city and updates the card with the data.
@@ -163,7 +163,7 @@
    * Then, getForecast() goes to the network for fresh data. If the network
    * request goes through, then the card gets updated a second time with the
    * freshest data.
-   */
+   *
   app.getForecast = function(key, label) {
     var statement = 'select * from weather.forecast where woeid=' + key;
     var url = 'https://query.yahooapis.com/v1/public/yql?format=json&q=' +
@@ -174,7 +174,7 @@
        * Check if the service worker has already cached this city's weather
        * data. If the service worker has the data, then display the cached
        * data while the app fetches the latest data.
-       */
+       *
       caches.match(url).then(function(response) {
         if (response) {
           response.json().then(function updateFromCache(json) {
@@ -291,7 +291,7 @@
    * Fake weather data that is presented when the user first uses the app,
    * or when the user has not saved any cities. See startup code for more
    * discussion.
-   */
+   *
   var initialWeatherForecast = {
     key: '2459115',
     label: 'New York, NY',
@@ -339,7 +339,7 @@
    *   implications. It should not be used in production applications!
    *   Instead, check out IDB (https://www.npmjs.com/package/idb) or
    *   SimpleDB (https://gist.github.com/inexorabletash/c8069c042b734519680c)
-   ************************************************************************/
+   ************************************************************************
 
   // TODO add startup code here
   app.selectedCities = localStorage.selectedCities;
@@ -353,13 +353,13 @@
      * saved any cities, so show the user some fake data. A real app in this
      * scenario could guess the user's location via IP lookup and then inject
      * that data into the page.
-     */
+     *
     app.updateForecastCard(initialWeatherForecast);
     app.selectedCities = [
       {key: initialWeatherForecast.key, label: initialWeatherForecast.label}
     ];
     app.saveSelectedCities();
-  }
+}*/
 
   // TODO add service worker code here
   if ('serviceWorker' in navigator) {

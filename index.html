@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Eddy and Eline</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="canonical" href="http://elineddy.eddremonts.dk">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
     <!-- TODO add manifest here -->
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
+
     <!-- Add to home screen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -14,9 +17,9 @@
     <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
     <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
     <meta name="msapplication-TileColor" content="#2F3BA2">
-
-    <title>Eddy and Eline</title>
     <link rel="apple-touch-icon" href="img/elineddy/logo-icon-152x152.png">
+
+    <!-- CSS  -->        
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Coustard|Dancing+Script|Fugaz+One|Galada|Gloria+Hallelujah|Indie+Flower|Irish+Grover|Lobster|Marko+One|Pacifico|Rock+Salt|Satisfy"
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="ionicons/css/ionicons.min.css">
@@ -25,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="css/stisla.css">
     <link rel="stylesheet" type="text/css" href="css/mine.css ">
     <link rel="stylesheet" type="text/css"  href="css/mine_media.css">
+    
 </head>
 <body>
 <nav class="navbar navbar-expand-lg main-navbar">
@@ -346,29 +350,18 @@
     </div>
 </div>
 
+
+
+<script src="scripts/app.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="js/jquery.min.js"></script>
-<script src="https://unpkg.com/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/jquery.easeScroll.js"></script>
 <script src="sweetalert/dist/sweetalert.min.js"></script>
 <script src="js/stisla.js"></script>
-<script>
-    var height = $(window).height();
-    var width = $(window).width();
-    $(document).ready(function () {
-        $('#video_id').css("min-height", height - (height / 10) + "px");
-        $('#video_id').css("min-width", width - (width / 10) + "px");
-        $('.modal-dialog').css("max-width", width + "px");
-        $('.video_iframe').css("width", width - 35 + "px");
-        $('.video_iframe').css("height", height - (height / 9) + "px");
-    });
-    addEventListener(document, "touchstart", function(e) {
-        console.log(e.defaultPrevented);  // will be false
-        e.preventDefault();   // does nothing since the listener is passive
-        console.log(e.defaultPrevented);  // still false
-      }, Modernizr.passiveeventlisteners ? {passive: true} : false);
-</script>
-<script src="scripts/app.js" async></script>
+<script src="js/init.js"></script>
+
 
 </body>
 </html>
